@@ -20,3 +20,4 @@
         android:label="fragment_student_detail"
         tools:layout="@layout/fragment_student_detail" />
 </navigation>
+    <!---->

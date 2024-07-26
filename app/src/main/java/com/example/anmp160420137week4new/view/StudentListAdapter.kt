@@ -6,7 +6,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.anmp160420137week4new.databinding.StudentListItemBinding
 import com.example.anmp160420137week4new.model.Student
-
+//
 class StudentListAdapter(val studentList:ArrayList<Student>)
     :RecyclerView.Adapter<StudentListAdapter.StudentViewHolder>()
 {

@@ -9,7 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.anmp160420137week4new.databinding.FragmentStudentDetailBinding
 import com.example.anmp160420137week4new.viewmodel.DetailViewModel
-
+//
 class StudentDetailFragment : Fragment() {
     private lateinit var viewModel: DetailViewModel
     private lateinit var binding: FragmentStudentDetailBinding
