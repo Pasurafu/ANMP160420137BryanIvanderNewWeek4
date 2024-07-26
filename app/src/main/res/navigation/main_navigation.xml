@@ -13,10 +13,16 @@
         <action
             android:id="@+id/studentListtoStudentDetailFragment"
             app:destination="@id/studentDetailFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/studentDetailFragment"
         android:name="com.example.anmp160420137week4new.view.StudentDetailFragment"
         android:label="fragment_student_detail"
-        tools:layout="@layout/fragment_student_detail" />
+        tools:layout="@layout/fragment_student_detail" >
+        <argument
+            android:name="studentID"
+            app:argType="string" />
+
+    </fragment>
 </navigation>
